@@ -30,7 +30,7 @@ public class LombokExample {
     @AllArgsConstructor
     public static class LoginResults {
         private int time;
-        private String token;
+        private String token = "";
 
         public static void main(String args[]) {
             LoginResults obj = new LoginResults(21, "kevin");

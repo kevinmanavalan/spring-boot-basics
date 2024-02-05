@@ -3,9 +3,6 @@ package com.example.annotations.builder;
 import org.junit.jupiter.api.Test;
 
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 public class StudentTest {
     @Test
     void BuilderTest() {

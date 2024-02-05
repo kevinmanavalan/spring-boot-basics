@@ -11,6 +11,7 @@ public @interface PrintWithSomething {
 class Sample {
     @PrintWithSomething(appendSomething = "hello ")
     public void print(String name) {
+
         System.out.println(name);
     }
 
